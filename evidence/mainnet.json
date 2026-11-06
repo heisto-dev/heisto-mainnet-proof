@@ -1,0 +1,111 @@
+{
+  "verifiedAtUtc": "2026-11-06T05:50:43.063Z",
+  "network": "mainnet-beta",
+  "commitment": "finalized",
+  "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+  "program": {
+    "address": "FxqFvpptTRCeKCxCuxt86AJze6v16Vk9M8UZCQ8tJvbi",
+    "loader": "BPFLoaderUpgradeab1e11111111111111111111111",
+    "executable": true,
+    "programDataAddress": "4p1Fi2NFpqscAWcdBsrze3WgCW23HXdSnP8hgw2sFFwV",
+    "lastDeploymentSlot": "465622182",
+    "upgradeAuthority": "8kAVnHKm756KgzyQAuU36TDitpDx4snQepXwStPpc9Sb",
+    "binaryBytes": 312584,
+    "programDataBytes": 312629,
+    "programDataLamports": 1588805560,
+    "binarySha256": "1b22fc202819dbf42e24f54be2b7c20725aeca3118b8c2aeb11ad38fff8ca0f8",
+    "recordedReleaseHashMatches": true,
+    "localBinarySha256": "1b22fc202819dbf42e24f54be2b7c20725aeca3118b8c2aeb11ad38fff8ca0f8",
+    "localBinaryMatches": true,
+    "immutable": false,
+    "sourceReproducibleBuildIndependentlyVerified": false
+  },
+  "config": {
+    "address": "5pHNzQaF76YN47E5MG2oYtobWpDpsfsUWkSU4oqVshNX",
+    "admin": "8kAVnHKm756KgzyQAuU36TDitpDx4snQepXwStPpc9Sb",
+    "judge": "DtrKof66G99kdwLwZ7J4visk92D98za9qjW8TTtLrkVi",
+    "treasury": "8kAVnHKm756KgzyQAuU36TDitpDx4snQepXwStPpc9Sb",
+    "reserveWallet": "8kAVnHKm756KgzyQAuU36TDitpDx4snQepXwStPpc9Sb",
+    "reserveIsTokenBurn": false,
+    "paused": false,
+    "maxPoolLamports": "2000000000",
+    "feeSplitBps": {
+      "pool": 5000,
+      "defender": 3500,
+      "treasury": 1000,
+      "ownerHeldReserve": 500
+    },
+    "accountDataBase64": "mwyq4B76zIJzEIVLi8lIbsh5LdKdH2paJM3ahThEJJneqUxTL9//VL+UoqyU/BvFfpnzhtTPRMA/22DXqX+urLfVRODWMljFcxCFS4vJSG7IeS3SnR9qWiTN2oU4RCSZ3qlMUy/f/1RzEIVLi8lIbsh5LdKdH2paJM3ahThEJJneqUxTL9//VACUNXcAAAAAAIgTrA3oA/QB/w=="
+  },
+  "sentinel": {
+    "id": "3544635135356959125",
+    "address": "CCsGeq1dXFzZUAgDFvLN4RmVQsfLkyY7q8Gwdu8jRfXt",
+    "name": "Vault Keeper Mainnet",
+    "model": "claude",
+    "owner": "CvAHQN2RuY3d1C4Bh2qm5JfUnpLXUrC1amk3AnDpFdgB",
+    "accountOwner": "FxqFvpptTRCeKCxCuxt86AJze6v16Vk9M8UZCQ8tJvbi",
+    "status": "live",
+    "statusCode": 0,
+    "accountBytes": 170,
+    "totalAccountLamports": 501513840,
+    "poolLamports": "500000000",
+    "claimableOwnerFeeLamports": "0",
+    "baseFeeLamports": "1000000",
+    "attacks": "0",
+    "instructionsHash": "d0d6db0ba2809a68e917da68832f756c90e257c2fcf1c182ff052accc14e81e8",
+    "recordedInstructionsHashMatches": true,
+    "createdAtUtc": "2026-11-06T04:47:36.000Z",
+    "lockUntilUtc": "2026-11-13T04:47:36.000Z",
+    "accountDataBase64": "sJSFleq2rAGxDtXN+FsVXrnrefP44oOUVvaHzHioOoBso9Sp/DJJUJX5URXgEjExQEIPAAAAAAAAAAAAAAAAAABlzR0AAAAAAAAAAAAAAAAAaJb2agAAAAAAAAAAAAAAAOhb7WoAAAAA0NbbC6KAmmjpF9pogy91bJDiV8L88cGC/wUqzMFOgegAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8="
+  },
+  "transactions": [
+    {
+      "stage": "program-deployment",
+      "signature": "5iqQnixGvh3XayYe8gw9cFxwn8727JrQkXVjRhdoA2r2yGUhTXkY34y3ehuoKGhZDMxPid1643gASgrdvvExLcfs",
+      "commitment": "finalized",
+      "slot": 465622182,
+      "blockTimeUtc": "2026-11-05T07:32:38.000Z",
+      "success": true,
+      "feeLamports": 15149,
+      "explorer": "https://explorer.solana.com/tx/5iqQnixGvh3XayYe8gw9cFxwn8727JrQkXVjRhdoA2r2yGUhTXkY34y3ehuoKGhZDMxPid1643gASgrdvvExLcfs"
+    },
+    {
+      "stage": "initialize-and-fund",
+      "signature": "U96xZGwWWLKqqrbwVmyhGTLVjqcSNXSCpMMPvbkYm8E7DsBgQUgRSfc5WymsbDCHHTuAoTXThWE2sSdf4pGN2M8",
+      "commitment": "finalized",
+      "slot": 465638292,
+      "blockTimeUtc": "2026-11-05T08:29:59.000Z",
+      "success": true,
+      "feeLamports": 12500,
+      "explorer": "https://explorer.solana.com/tx/U96xZGwWWLKqqrbwVmyhGTLVjqcSNXSCpMMPvbkYm8E7DsBgQUgRSfc5WymsbDCHHTuAoTXThWE2sSdf4pGN2M8"
+    },
+    {
+      "stage": "unpause",
+      "signature": "3VeZ4pz9kDCx2FF4aSN64Pmz2usmXD47yy1jZPrzXU3k4jyQRJvctoTRGPqrrZwTNBYmRP1eervheVm6Ff5fLSKJ",
+      "commitment": "finalized",
+      "slot": 465640678,
+      "blockTimeUtc": "2026-11-05T08:38:23.000Z",
+      "success": true,
+      "feeLamports": 7000,
+      "explorer": "https://explorer.solana.com/tx/3VeZ4pz9kDCx2FF4aSN64Pmz2usmXD47yy1jZPrzXU3k4jyQRJvctoTRGPqrrZwTNBYmRP1eervheVm6Ff5fLSKJ"
+    },
+    {
+      "stage": "sentinel-creation",
+      "signature": "4xTdmpzFAmGnePVp5MFXtWyX8BZRyaDV2ZiButF69cJtjK72bn1rS4zWpQ9f2ykEcQ8XAkYpALZ7ag6KHPjYVtkL",
+      "commitment": "finalized",
+      "slot": 465980100,
+      "blockTimeUtc": "2026-11-06T04:47:37.000Z",
+      "success": true,
+      "feeLamports": 9000,
+      "ownerDebitLamports": 501522840,
+      "explorer": "https://explorer.solana.com/tx/4xTdmpzFAmGnePVp5MFXtWyX8BZRyaDV2ZiButF69cJtjK72bn1rS4zWpQ9f2ykEcQ8XAkYpALZ7ag6KHPjYVtkL"
+    }
+  ],
+  "limitations": [
+    "A bytecode match to a local release is not an independent reproducible source-build verification or a security audit.",
+    "The program remains upgradeable. The administrator can pause new operations and update configured roles.",
+    "AI execution and three-judge evaluation are off-chain. On-chain settlement trusts the configured judge signature.",
+    "The creation receipt proves real funding, not a successful end-to-end paid attack, refund or prize payout.",
+    "This is a timestamped snapshot, not a promise of future pool balance, uptime or unchanged authority."
+  ]
+}

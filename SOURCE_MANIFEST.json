@@ -1,0 +1,57 @@
+{
+  "generatedAtUtc": "2026-11-06T05:54:54.057Z",
+  "repository": "heisto-mainnet-proof",
+  "scope": "allowlisted source/public evidence; no original Git history",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 146,
+      "sha256": "9c45ec79cbc90c774902ddd00ef1188669ef93ad33df6ca2658c39cba93d5b94"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 516,
+      "sha256": "0fe95abd80d3181e213903d18cbd8baf6ad3fcd4d50db9792afbaa7b0dca9bb4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1076,
+      "sha256": "2b2dc5883591645bbc2b3344315e13c3563d3de26a59757a624567d0e9885a4a"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 275,
+      "sha256": "36a26f7e3bc712ecaf3c8965dc0d5a523b5c8ac1bbc160c89e6a6097e82507d9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3348,
+      "sha256": "c4ddd1ce4d46e466c86b8f090d8068b0022aed25ae15507389fdc2ab04ea12e0"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 734,
+      "sha256": "66cb0d8fb12233dd439055d05c98dff928e231ab57892b66147d6acc21482c2c"
+    },
+    {
+      "path": "docs/public-guide.html",
+      "bytes": 25394,
+      "sha256": "a7602b19d9b1259fe9b6b4399bc5a5622af882f79ca0e15c3dab9715a8f4f430"
+    },
+    {
+      "path": "docs/public-guide.template.html",
+      "bytes": 12071,
+      "sha256": "9a42dc062e4fbaa8b07ef495d416af85637566f746b558ca1c0e3ac6ae02ea11"
+    },
+    {
+      "path": "evidence/mainnet.json",
+      "bytes": 5266,
+      "sha256": "6bb15eb6073978ef3803376fb258b764079c785bd1e2180c46d1334ffe69a317"
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "bytes": 4534,
+      "sha256": "da00eaf08bef71f47b952801477c8f920892c8b9f5b9e3a048247739b3cec82b"
+    }
+  ]
+}
