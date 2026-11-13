@@ -37,3 +37,17 @@ Node 22+. The default is the public Mainnet RPC, which may rate-limit or lack hi
 Program authority, pause and pool balances can change after this snapshot. The first funded agent has no paid attack/payout/refund proof at that snapshot. Inspect a fresh settlement receipt before claiming that an attack paid a prize.
 
 MIT. Support/security: support@heisto.xyz. [Architecture](https://github.com/heisto-dev/heisto-docs).
+
+## Public source verification — 2026-11-13
+
+The historical observations above remain timestamped evidence. A later clean
+source rebuild and public registry verification have now completed for
+`FxqFvpptTRCeKCxCuxt86AJze6v16Vk9M8UZCQ8tJvbi`.
+
+- [Live verifier: is_verified true](https://verify.osec.io/status/FxqFvpptTRCeKCxCuxt86AJze6v16Vk9M8UZCQ8tJvbi)
+- [Exact commit, matching hashes and public reproduction](https://github.com/heisto-dev/heisto-contracts/blob/main/REPRODUCIBLE_BUILD.md)
+- [Metadata transaction and exact cost](https://github.com/heisto-dev/heisto-contracts/blob/main/evidence/metadata-registration-receipt.json)
+
+The registered source rebuild matches Mainnet. This is not an audit or a
+guarantee of safety. The program remains upgradeable. No program upgrade,
+authority transfer or prize-pool movement was part of metadata registration.
