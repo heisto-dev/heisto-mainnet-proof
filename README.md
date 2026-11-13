@@ -51,3 +51,16 @@ source rebuild and public registry verification have now completed for
 The registered source rebuild matches Mainnet. This is not an audit or a
 guarantee of safety. The program remains upgradeable. No program upgrade,
 authority transfer or prize-pool movement was part of metadata registration.
+
+## Current embedded security contact release
+
+The approved contact-only program upgrade is live at the same program ID.
+Solscan now displays **Security.txt: TRUE** and
+**Program is verified: VERIFIED**. The independent public verifier rebuilt
+the updated source successfully.
+
+[Current source, hashes, upgrade receipts and refund](https://github.com/heisto-dev/heisto-contracts/blob/main/SECURITY_CONTACT_UPGRADE.md).
+
+Net wallet debit: 0.054200197 SOL. Refunded upload deposit and unused budget:
+1.596215962 SOL. No instruction-handler changes, new dependencies, authority
+transfer or prize-account movement were part of this upgrade. This is not an audit.
